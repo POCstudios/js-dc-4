@@ -1,10 +1,9 @@
 
-var x1 = process.argv[2].split(',')
-var y2 = process.argv[3].split(',')
+Math.dist=function(x1,y1,x2,y2){
+  if(!x2) x2=0;
+  if(!y2) y2=0;
+  return Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+}
 
-var deltaX = x1[1]-x1[0];
-var deltaY = y2[1]-y2[0];
-
-var distance = Math.sqrt (Math.pow(deltaX, 2) + Math.pow(deltaY, 2))
-
+var distance = Math.dist(1,3, 10,15)
 console.log ('Distance is... = ' + distance)
