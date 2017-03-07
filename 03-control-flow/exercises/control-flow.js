@@ -119,24 +119,33 @@
 // }
 
 // A more condensed `for` loop for working with arrays
-// var grades = [87, 95.5, 40, 79, 20]
+var grades = [87, 95.5, 40, 79, 20]
+
+for ( grade in grades ) {
+
+  if ( grades[ grade ] >= 90 ) {
+    console.log( 'A' )
+  } else if ( grades[ grade ] >= 80 ) {
+    console.log( 'B' )
+  } else if ( grades[ grade ] >= 70 ) {
+    console.log( 'C' )
+  } else {
+    console.log( 'D' )
+  }
+
+}
 //
-// for ( grade in grades ) {
-//
-//   if ( grades[ grade ] >= 90 ) {
-//     console.log( 'A' )
-//   } else if ( grades[ grade ] >= 80 ) {
-//     console.log( 'B' )
-//   } else if ( grades[ grade ] >= 70 ) {
-//     console.log( 'C' )
-//   } else {
-//     console.log( 'D' )
-//   }
-//
+// for (i in grades) {
+//   console.log(i,grades[i])
 // }
 
-
 // B. `while` loops
+
+var x = 10
+while (x >= 0) {
+  console.log(x)
+  x--;
+}
 
 // A basic `while loop`
 // console.log( 'while loop' )
