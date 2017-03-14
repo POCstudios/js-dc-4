@@ -17,6 +17,23 @@ properties, one of which is a method
 
 */
 
+var car = {
+   make : 'Toyota',
+  model : 'Camry',
+  color : 'Green',
+ year : 2013,
+ mileage : 285858,
+ upgrades : {
+ gps : false,
+ rearviewCamera : true,
+ radio : true,
+   heatedSeats : false
+  },
+ +  horn : function(){
+ +    console.log( 'beep, beep, beep' );
+ +    return false;
+ +  }
+ +}
 
 
 /*
@@ -25,6 +42,7 @@ Get one of the properties from your object using dot notation
 
 */
 
+console.log( car.upgrades.gps );
 
 
 /*
@@ -33,6 +51,7 @@ Get one of the properties from your object using bracket notation
 
 */
 
+console.log( car['color'] );
 
 /*
 
@@ -41,9 +60,12 @@ bracket notation
 
 */
 
-
+console.log( car.color = 'charcoal' );
 /*
 
 Call your car's method
 
 */
+
+console.log( car.horn() );
+console.log( car.color );
