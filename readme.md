@@ -10,7 +10,7 @@ Once you're upstairs, tell the folks at the front desk you're here for your firs
 
 ## Office Hours
 
-Zakk: Sundays from 3:30 - 5:30
+Zakk: Sundays from 3:00 - 5:00
 
 Christine: Wednesdays from 5:30 to 7:30
 
@@ -97,7 +97,7 @@ Data types are the most atomic unit of any program. Javascript has many basic da
 - [Lesson](https://www.youtube.com/watch?v=_cZPOUf5Ddg)
 
 ### Class 03: Control Flow
-Programming is often described as following a recipe - in this lesson, we discuss why it's more nuanced than that by looking at control flow - ways we can control what code gets executed and the conditions under which it gets executed. 
+Programming is often described as following a recipe - in this lesson, we discuss why it's more nuanced than that by looking at control flow - ways we can control what code gets executed and the conditions under which it gets executed.
 
 #### Learning Objectives
 - Fork a repository and make a pull request
@@ -108,7 +108,7 @@ Programming is often described as following a recipe - in this lesson, we discus
 - [Slides](https://ga-students.github.io/js-dc-4/03-control-flow)
 - [Assignment](03-control-flow/assignment/assignment.md)
 - [Lesson Notes](03-control-flow/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=KO0SdPEt044)
 
 ### Class 04: Functions
 Now that we know how to work with data and control when certain actions are performed by our program, we need a way to encapsulate code so we can reuse it. Functions let us write code that will perform an action whenever we ask it to do so.
@@ -124,9 +124,10 @@ Now that we know how to work with data and control when certain actions are perf
 - [Slides](https://ga-students.github.io/js-dc-4/04-functions)
 - [Assignment](04-functions/assignment.md)
 - [Lesson Notes](04-functions/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=89zXKZllUqI)
 
 ### Class 05: Objects
+Our final class on Javascript as a language covers Objects. This lesson will also cover Object Oriented Programming, a paradigm often held in opposition to Functional Programming, which we talked about in the last class.
 
 #### Learning Objectives
 - Create and modify JavaScript Objects
@@ -137,12 +138,12 @@ Now that we know how to work with data and control when certain actions are perf
 - [Slides](https://ga-students.github.io/js-dc-4/05-objects)
 - [Assignment](05-objects/assignment.md)
 - [Lesson Notes](05-objects/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=5jAj3ZullDA)
 
 ### Class 06: Lab
 
 #### Lab
-- [js-dc-4-Lab01](https://github.com/ga-students/js-dc-4-Lab01)
+- [js-dc-4-Lab01](https://github.com/ga-students/JS-DC-4-Lab01)
 
 #### Materials
 - [Slides](https://ga-students.github.io/js-dc-4/06-lab)
