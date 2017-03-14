@@ -10,3 +10,34 @@ Call both functions twice, passing in different numbers as arguments
 each time.
 
 */
+
+
+
+function addNumbers(numOne, numTwo) {
+  console.log(numOne+numTwo)
+}
+addNumbers (10,11)
+
+
+function subtractNumbers(num1, num2) {
+  console.log(num1-num2)
+}
+
+subtractNumbers(11,10)
+// ----------
+// var number = 0
+// function addOneToNumber() {
+//   number -= 1
+// }
+//
+// function addTwoToNumber() {
+//   number -= 2
+// }
+//
+//
+// // ----------
+// function addNumbers( numOne, numTwo ) {
+//   console.log(numOne - numTwo)
+// }
+//
+// addNumbers( 5, 6 )

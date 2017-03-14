@@ -25,7 +25,7 @@
 //   console.log( 'this is my first function' )
 // }
 //
-// myFirstFunction
+// // myFirstFunction
 // myFirstFunction()
 
 
@@ -55,7 +55,7 @@
 // }
 
 
-// // ----------
+// ----------
 // function addNumbers( numOne, numTwo ) {
 //   console.log(numOne + numTwo)
 // }
@@ -75,7 +75,7 @@
 //
 // var myNum = addOne( 5, 10 )
 // console.log( myNum )
-
+//
 
 
 // // Side effect
@@ -112,8 +112,6 @@
 // }
 
 
-
-
 // Scope Example 2:
 // function myFunction() {
 //   var a = 1
@@ -121,6 +119,7 @@
 //
 // console.log( a )
 
+// a not defined//
 
 // Scope Example 3:
 // var a = 1
@@ -130,34 +129,37 @@
 // }
 
 // Scope Example 4:
-// var a = 1
-// function firstFunction() {
-//   // do we expect this to work?
-//   var b = 2
-//
-//   console.log( a )
-//   console.log( b )
-//
-//   function internalFunction() {
-//     var c = 3
-//
-//     // do we expect this to work?
-//     console.log( a )
-//     console.log( b )
-//     console.log( c )
-//   }
-//
-//   // do we expect this to work?
-//   console.log( a )
-//   console.log( b )
-//   console.log( c )
-// }
-// // do we expect this to work?
-// console.log( a )
-// console.log( b )
-// console.log( c )
+var a = 1
+var b
+var c
 
+function firstFunction() {
+  // do we expect this to work?
+  var b = 2
 
+  console.log( a )
+  console.log( b )
+
+  function internalFunction() {
+    var c = 3
+
+    // do we expect this to work?
+    console.log( a )
+    console.log( b )
+    console.log( c )
+  }
+internalFunction()
+  // do we expect this to work?
+  console.log( a )
+  console.log( b )
+  console.log( c )
+}
+// do we expect this to work?
+console.log( a )
+console.log( b )
+console.log( c )
+
+firstFunction()
 /*
 
   5. Using Functions
@@ -166,35 +168,35 @@
 
 
 // Functions as variables
-var myFunction = function () {
-  console.log( 'myFunction variable' )
-}
-
-myFunction()
-
-
-/*
-
-  6. Functional Programming
-
-*/
-
-
-// Pure functions
-function isCurrentYearLeapYear() {
-
-   const year = new Date().getFullYear()
-
-   if(year % 4 !== 0) {
-     return false
-   } else if(year % 100 != 0) {
-     return true
-   } else if(year % 400 != 0) {
-     return false
-   } else {
-     return true
-   }
-
-}
-
-console.log( 'is it a leap year? ', isCurrentYearLeapYear() )
+// var myFunction = function () {
+//   console.log( 'myFunction variable' )
+// }
+//
+// myFunction()
+//
+//
+// /*
+//
+//   6. Functional Programming
+//
+// */
+//
+//
+// // Pure functions
+// function isCurrentYearLeapYear() {
+//
+//    const year = new Date().getFullYear()
+//
+//    if(year % 4 !== 0) {
+//      return false
+//    } else if(year % 100 != 0) {
+//      return true
+//    } else if(year % 400 != 0) {
+//      return false
+//    } else {
+//      return true
+//    }
+//
+// }
+//
+// console.log( 'is it a leap year? ', isCurrentYearLeapYear() )
